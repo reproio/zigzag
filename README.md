@@ -1,8 +1,11 @@
 # Zigzag
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/zigzag`. To experiment with that code, run `bin/console` for an interactive prompt.
+Rubygems to encode Integer to zig-zag code
 
-TODO: Delete this and the text above, and describe your gem
+ref. following URLs
+
+- https://en.wikipedia.org/wiki/Zigzag_code
+- https://stackoverflow.com/questions/33935266/whats-the-reason-behind-zigzag-encoding-in-protocol-buffers-and-avro
 
 ## Installation
 
@@ -22,7 +25,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Zigzag.encode(12345)
+```
 
 ## Development
 
@@ -32,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/zigzag.
+Bug reports and pull requests are welcome on GitHub at https://github.com/reproio/zigzag.
 
 ## License
 
